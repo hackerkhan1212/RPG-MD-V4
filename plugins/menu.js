@@ -5,7 +5,7 @@ import { xpRange } from '../lib/levelling.js'
 import moment from 'moment-timezone'
 import os from 'os'
 import fs from 'fs'
-const wib2 = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+const wib2 = moment.tz('Asia/Karachi').format('HH:mm:ss')
 let tags = {
   'main': 'Main',
   'game': 'Game',
@@ -71,7 +71,7 @@ const defaultMenu = {
   header: '┏━━━ꕥ〔 *%category* 〕ꕥ━⬣',
     body: '┃✾ %cmd %islimit %isPremium',
   footer: '┗━━━━━━━━━ꕥ\n',
-  after: `  ${'✧\n┏━📮 *Note* :\n┃ 𝙹𝙸𝙺𝙰 𝙼𝙴𝙻𝙰𝙽𝙶𝙶𝙰𝚁 𝚃𝙾𝚂 𝙰𝙺𝙰𝙽 𝙳𝙸 𝙱𝙰𝙽 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽! ^_^\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
+  after: `  ${'✧\n┏━📮 *Note* :\n┃ 𝙄𝙛 𝙮𝙤𝙪 𝙗𝙧𝙚𝙖𝙠 𝙩𝙝𝙚 𝙩𝙤𝙨, 𝙮𝙤𝙪 𝙬𝙞𝙡𝙡 𝙗𝙚 𝙥𝙚𝙧𝙢𝙖𝙣𝙚𝙣𝙩𝙡𝙮 𝙗𝙖𝙣𝙣𝙚𝙙! ^_^\n┗━━━━━━━━━━━━━━━━━━━ꕥ'}`,
 }
 let handler = async (m, { conn, usedPrefix, __dirname }) => {
   try {
@@ -172,7 +172,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     const pp = await conn.profilePictureUrl(conn.user.jid).catch(_ => './src/avatar_contact.png')
     const menu = './media/menu.jpg'
     const valor = './thumbnail.jpg'
-    let url = 'https://i.ibb.co/jfZVKmC/babi2.jpg'
+    let url = 'https://ibb.co/4ZtqtRc'
     let flaa = pickRandom(global.flaaaaa)
     const ultah = new Date('November 4 2022 00:00:01')
     const sekarat = new Date().getTime() 
@@ -188,18 +188,18 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
       [`۪۪ᴀᴜᴛʜᴏʀ ʙᴏᴛ`, `${usedPrefix}owner`]
     ], m, {
 contextInfo: { externalAdReply :{ showAdAttribution: true,
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU',
+                        sourceUrl: 'https://www.youtube.com/results?search_query=.',
                         mediaType: 2,
-                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ King Of Bear ×፝֟͜×`,
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `⚘ ᴄʀᴇᴀᴛᴇ by ᴹᴿ᭄ King Of Bear ×፝֟͜×`,          previewType: 0,
+                        description: `⚘ ᴄʀᴇᴀᴛᴇ ᴹᴿ᭄ 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 ×፝֟͜×`,
+                        title: `💌Owner's birthday : ${ohari} Day ${ojam} Jam ${onet} Minute ${detek} Second`,
+                        body: `⚘ ᴄʀᴇᴀᴛᴇ by ᴹᴿ᭄ 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 ×፝֟͜×`,          previewType: 0,
                         thumbnail: await (await fetch(giflogo2)).buffer(),
-                        mediaUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        mediaUrl: 'https://www.youtube.com/results?search_query=.'
                         
                       }}
 })
   } catch (e) {
-    conn.reply(m.chat, 'Maaf, menu sedang error', m)
+    conn.reply(m.chat, 'Sorry, the menu is in error', m)
     throw e
   }
   let vn = `./mp3/insecure.opus`
