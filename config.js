@@ -83,7 +83,7 @@ global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'cristian9407',
   'https://anabotofc.herokuapp.com/': 'AnaBot',
-  'https://api.lolhuman.xyz': 'Xynoz',
+  'https://api.lolhuman.xyz': '85faf717d0545d14074659ad',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.me': 'apivinz',
   'https://pencarikode.xyz': 'pais',
@@ -94,6 +94,9 @@ global.APIKeys = { // APIKey Here
   'https://hardianto.xyz': 'hardianto',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
+global.keysZens = ['fiktod', 'c2459db922', 'BF39D349845E', '675e34de8a', '37CC845916', '0b917b905e6f', '6fb0eff124']
+global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
+global.lolkeysapi = ['85faf717d0545d14074659ad']
 
 /*============== WATERMARK ==============*/
 global.wm = '𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞ラ | By ᴹᴿ𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 ×፝֟͜×' //Main Watermark
