@@ -111,8 +111,8 @@ global.danied = '✘ 𝗘𝗥𝗢𝗥 𝟰𝟬𝟰'
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/1ee2290eedd3330a66df8.jpg' //Main Thumbnail
-global.imagebot = 'https://telegra.ph/file/06c4e93a3d3f388b2642d.jpg'
+global.thumb = 'https://telegra.ph/file/3b7ec1308edb07983efef.png' //Main Thumbnail
+global.imagebot = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 global.giflogo = 'https://ibb.co/4ZtqtRc'
 global.giflogo2 = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
@@ -120,7 +120,7 @@ global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=tr
 global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
 global.botintro = 'Hello, Meet me 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 BOT I will help you anytime & anywhere, I am a WhatsApp bot assistant made by *ᴹᴿ᭄ 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 ×፝֟͜×* I was released on date\n🗓 ️_15/11/2022_'
-global.intro = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.intro = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 /*============== GLOBAL BIO ==============*/
 global.nameowner = 'ᴹᴿ᭄𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 ×፝֟͜×'
 global.umurowner = '17'
@@ -139,7 +139,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/6ab4daac226292a112540.jpg'
+global.thumbdoc = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 
 /*=========== FAKE SIZE ===========*/
 global.fsizedoc = '99999999999999' // default 10TB
