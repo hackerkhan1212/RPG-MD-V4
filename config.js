@@ -115,10 +115,10 @@ global.thumb = 'https://telegra.ph/file/3b7ec1308edb07983efef.png' //Main Thumbn
 global.imagebot = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 global.giflogo = 'https://ibb.co/4ZtqtRc'
 global.giflogo2 = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
-global.thumbs = ['https://telegra.ph/file/7db49c83fd106a60741cd.jpg']
+global.thumbs = ['https://telegra.ph/file/3b7ec1308edb07983efef.png']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.thumbBanned = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
-global.thumbWarn = 'https://telegra.ph/file/77d11b06617f0797a45ac.jpg'
+global.thumbBanned = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
+global.thumbWarn = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 global.botintro = 'Hello, Meet me 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 BOT I will help you anytime & anywhere, I am a WhatsApp bot assistant made by *ᴹᴿ᭄ 𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞 ×፝֟͜×* I was released on date\n🗓 ️_15/11/2022_'
 global.intro = 'https://telegra.ph/file/3b7ec1308edb07983efef.png'
 /*============== GLOBAL BIO ==============*/
