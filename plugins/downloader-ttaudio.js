@@ -7,7 +7,7 @@ let handler = async (m, { conn, args }) => {
   let _uptime = process.uptime() * 1000
 let uptime = clockString(_uptime)
 let who = m.sender
-const time = moment.tz('Asia/Jakarta').format('HH')
+const time = moment.tz('Asia/Karachi').format('HH')
   const ultah = new Date('November 4 2022 00:00:01')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
@@ -15,7 +15,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-  if (!args[0]) throw 'Uhm...url nya mana?'
+  if (!args[0]) throw 'Uhm... wheres the url??'
   let chat = global.db.data.chats[m.chat]
   m.reply(wait)
   await conn.reply(m.chat, `Downloading media from Tiktok`, 0, {
@@ -43,9 +43,9 @@ const time = moment.tz('Asia/Jakarta').format('HH')
 ┏┉━━━━━━━━━━━❏
 ┆ *TIKTOK MP3*
 ├┈┈┈┈┈┈┈┈┈┈┈
-┆• *Judul:* 
+┆• *Title:*
 │• *Type:* MP3
-┆• *📥 Ukuran File:* 
+┆• *📥 File Size:*
 └❏
 `.trim(), m, null, {
         contextInfo: {
@@ -53,10 +53,10 @@ const time = moment.tz('Asia/Jakarta').format('HH')
                 mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `Subscribe YT My Bestie`,                                       previewType: 0,
-                        thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        title: `💌 Owner's birthday : ${ohari} Day ${ojam} O'clock ${onet} Minute ${detek} Detik`,
+                        body: `𝕀𝕥𝕩_𝕚𝕓𝕣𝕒𝕙𝕚𝕞`,                                       previewType: 0,
+                        thumbnail: await (await fetch(`https://ibb.co/4ZtqtRc`)).buffer(),
+                        sourceUrl: 'https://www.instagram.com/iamibrahim_2005/'
             }
         }
     })
