@@ -7,21 +7,21 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let pp = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 let name = await conn.getName(who)
 let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : m.text
-let urls = ['https://violetics.pw/api/canvas/quotes?apikey=${global.violetics}&text=' + teks + '&author=' + name,
-'https://api.lolhuman.xyz/api/attp2?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/attp?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/hartacustom?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/ttp2?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/ttp3?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/ttp4?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/ttp5?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/ttp6?apikey=' + global.lolkey + '&text=' + teks,
-'https://api.lolhuman.xyz/api/ttp?apikey=' + global.lolkey + '&text=' + teks,
+let urls = ['https://violetics.pw/api/canvas/quotes?apikey=beta&text=' + teks + '&author=' + name,
+'https://api.lolhuman.xyz/api/attp2?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/attp?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/hartacustom?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/ttp2?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/ttp3?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/ttp4?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/ttp5?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/ttp6?apikey=${global.lolkeysapi}&text=${teks},
+'https://api.lolhuman.xyz/api/ttp?apikey=${global.lolkeysapi}&text=${teks},
 'https://leyscoders-api.herokuapp.com/api/ttp1?text=' + teks + '&apikey=MIMINGANZ',
 'https://leyscoders-api.herokuapp.com/api/ttp2?text=' + teks + '&apikey=MIMINGANZ',
-'https://violetics.pw/api/canvas/attp-gradient2?apikey=${global.violetics}&text=' + teks,
-'https://violetics.pw/api/canvas/attp-gradient?apikey=${global.violetics}&text=' + teks,
-'https://violetics.pw/api/canvas/ttp-gradient?apikey=${global.violetics}&text=' + teks]
+'https://violetics.pw/api/canvas/attp-gradient2?apikey=beta&text=' + teks,
+'https://violetics.pw/api/canvas/attp-gradient?apikey=beta&text=' + teks,
+'https://violetics.pw/api/canvas/ttp-gradient?apikey=beta&text=' + teks]
 
             let lisn = ["Quotes",
             "Attp 2",
