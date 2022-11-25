@@ -93,7 +93,7 @@ global.APIKeys = { // APIKey Here
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://botstyle-api.herokuapp.com': 'Eyar749L',
   'https://hardianto.xyz': 'hardianto',
-  'https://violetics.pw': 'beta'
+  'https://violetics.pw': 'beta',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 global.keysZens = ['285c513f6556', '68637855ac', '66aa575454', 'ead81e891b', '8331b843f7', 'ec3fe6f05831', '0c65d4c037']
